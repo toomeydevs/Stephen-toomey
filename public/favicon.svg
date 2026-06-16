@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&amp;display=swap');
+      .logo {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+        font-size: 28px;
+      }
+      .glow {
+        filter: drop-shadow(0 0 8px hsla(142, 69%, 58%, 0.8));
+      }
+      .primary {
+        fill: hsl(142, 69%, 58%);
+      }
+      .foreground {
+        fill: hsl(0, 0%, 95%);
+      }
+    </style>
+  </defs>
+  <rect width="128" height="128" fill="hsl(0, 0%, 9%)" rx="24" />
+  <g class="glow">
+    <text x="64" y="72" text-anchor="middle" class="logo">
+      <tspan class="primary">ST</tspan><tspan class="foreground">.</tspan><tspan class="primary">dev</tspan>
+    </text>
+  </g>
+</svg>
