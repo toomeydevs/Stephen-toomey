@@ -10,10 +10,10 @@ const Layout = ({ children }: { children: ReactNode }) => {
       <footer className="border-t border-border section-padding text-center">
         <div className="mx-auto max-w-7xl">
           <div className="flex justify-center gap-6 mb-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-primary">
+            <a href="https://github.com/toomeydevs" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-primary">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-primary">
+            <a href="https://www.linkedin.com/in/stephentoomey-dev" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-primary">
               <Linkedin size={20} />
             </a>
             <a href="mailto:hello@stephentoomey.dev" className="text-muted-foreground transition-colors hover:text-primary">

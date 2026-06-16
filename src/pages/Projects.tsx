@@ -34,8 +34,8 @@ const projects: Project[] = [
     description: "Full-stack CRUD application with category filtering, full-text search using MongoDB $regex, and user data isolation.",
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Vercel", "Railway"],
     category: "Full-Stack",
-    github: "https://github.com/toomeydevs/notes-app",
-    demo: "#",
+    github: "https://github.com/toomeydevs/note-app.git",
+    demo: "https://note-app-zeta-steel.vercel.app/",
   },
   {
     title: "E-Commerce Product Page",
