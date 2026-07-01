@@ -1,27 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700;800&amp;display=swap');
       .logo {
         font-family: 'JetBrains Mono', monospace;
-        font-weight: 700;
-        font-size: 28px;
+        font-weight: 800;
+        font-size: 32px;
       }
       .glow {
-        filter: drop-shadow(0 0 8px hsla(142, 69%, 58%, 0.8));
+        filter: drop-shadow(0 0 10px hsla(160, 80%, 55%, 0.5));
       }
-      .primary {
-        fill: hsl(142, 69%, 58%);
+      .gradient-fill {
+        fill: url(#primary-grad);
       }
       .foreground {
-        fill: hsl(0, 0%, 95%);
+        fill: hsl(210, 40%, 98%);
+        fill-opacity: 0.3;
       }
     </style>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="hsl(160, 80%, 58%)" />
+      <stop offset="100%" stop-color="hsl(190, 85%, 65%)" />
+    </linearGradient>
   </defs>
-  <rect width="128" height="128" fill="hsl(0, 0%, 9%)" rx="24" />
+  <rect width="128" height="128" fill="hsl(222, 47%, 4%)" rx="28" stroke="rgba(255, 255, 255, 0.065)" stroke-width="2" />
   <g class="glow">
-    <text x="64" y="72" text-anchor="middle" class="logo">
-      <tspan class="primary">ST</tspan><tspan class="foreground">.</tspan><tspan class="primary">dev</tspan>
+    <text x="64" y="74" text-anchor="middle" class="logo">
+      <tspan class="gradient-fill">ST</tspan><tspan class="foreground">.</tspan><tspan class="gradient-fill">dev</tspan>
     </text>
   </g>
 </svg>
